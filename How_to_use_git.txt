@@ -3,3 +3,6 @@ git commit -m "你的提交信息"
 git push origin main
 
 git pull
+
+git clone
+
