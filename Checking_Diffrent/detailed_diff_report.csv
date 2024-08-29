@@ -1,0 +1,345 @@
+﻿發現新增的欄位：
+在新檔案 '重組後的領料表_fill_missing_Value.csv' 中，發現欄位 '8月22日' 存在，但在舊檔案 'df_summary.csv' 中不存在此欄位。
+在新檔案 '重組後的領料表_fill_missing_Value.csv' 中，發現欄位 '8月24日' 存在，但在舊檔案 'df_summary.csv' 中不存在此欄位。
+在新檔案 '重組後的領料表_fill_missing_Value.csv' 中，發現欄位 '中文說明' 存在，但在舊檔案 'df_summary.csv' 中不存在此欄位。
+""
+在索引 1047_碳鋼_415_WN FLANGE CL150 RF CS A105  ASME   _F03914_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '1'。
+""
+在索引 1052_碳鋼_415_WN FLANGE CL150 RF CS A105  ASME   _F03913_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '1'。
+""
+在索引 1062_碳鋼_415_WN FLANGE CL150 RF CS A105  ASME  NACE_F127855_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-1'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 1082_碳鋼_415_WN FLANGE CL1500 RJ CS A105  ASME  NACE_F231451_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-7'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 1092_碳鋼_415_WN FLANGE CL2500 RJ CS A105  ASME   _F61747_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-2'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 1107_碳鋼_415_WN FLANGE CL2500 RJ CS A105  ASME  NACE_F59521_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-4'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 112_碳鋼_102_PIPE SMLS BE CS A106-B  ASME  NACE(IMPACT TEST at -1 DEG. C)_P44818_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-48'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '-18'。
+""
+在索引 116_碳鋼_102_PIPE SMLS PE CS A106-B  ASME   _P24908_A 發現資料變動：
+在欄位 '採購需求' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '336'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '330'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '336'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '330'。
+""
+"在索引 1182_碳鋼_453_ORIFICE WN FLANGE CL1500 RJ CS A105 W/ 3/4"" SW TAPS ASME  NACE_F199064_B 發現資料變動："
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-4'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 118_碳鋼_102_PIPE SMLS PE CS A106-B  ASME   _P24908_D 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-6'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '6'。
+""
+"在索引 1212_碳鋼_453_ORIFICE WN FLANGE CL300 RF CS A105 W/ 1/2"" FNPT TAPS ASME  NACE_F129389_B 發現資料變動："
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-1'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 1880_碳鋼_630_CHECK VALVE CL1500 BW-STUB CS A105 BODY SS 316-TR STLD-S&D LIFT W/ SPRG WC API (STUB : SMLS BE XXS A106-B) NACE_V110616_- 發現資料變動：
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '預製'。
+""
+在索引 1881_碳鋼_630_CHECK VALVE CL1500 BW-STUB CS A105 BODY SS 316-TR STLD-S&D LIFT W/ SPRG WC API (STUB : SMLS BE XXS A106-B) NACE_V110616_A 發現資料變動：
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '預製'。
+""
+在索引 1882_碳鋼_630_CHECK VALVE CL1500 BW-STUB CS A105 BODY SS 316-TR STLD-S&D LIFT W/ SPRG WC API (STUB : SMLS BE XXS A106-B) NACE_V110616_B 發現資料變動：
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '預製'。
+""
+在索引 1883_碳鋼_630_CHECK VALVE CL1500 BW-STUB CS A105 BODY SS 316-TR STLD-S&D LIFT W/ SPRG WC API (STUB : SMLS BE XXS A106-B) NACE_V110616_D 發現資料變動：
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '預製'。
+""
+在索引 1884_碳鋼_630_CHECK VALVE CL1500 BW-STUB CS A105 BODY SS 316-TR STLD-S&D LIFT W/ SPRG WC API (STUB : SMLS BE XXS A106-B) NACE_V110616_E 發現資料變動：
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '預製'。
+""
+"在索引 1990_碳鋼_999_STEAM RING, PIP 3.1 M ( FOR 10"" -2500# NOZZLE USE)_SR-01E_- 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 1991_碳鋼_999_STEAM RING, PIP 3.1 M ( FOR 10"" -2500# NOZZLE USE)_SR-01E_A 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 1992_碳鋼_999_STEAM RING, PIP 3.1 M ( FOR 10"" -2500# NOZZLE USE)_SR-01E_B 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 1993_碳鋼_999_STEAM RING, PIP 3.1 M ( FOR 10"" -2500# NOZZLE USE)_SR-01E_D 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 1994_碳鋼_999_STEAM RING, PIP 3.1 M ( FOR 10"" -2500# NOZZLE USE)_SR-01E_E 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 1995_碳鋼_999_STEAM RING, PIP 3.5 M ( FOR 14"" -2500# NOZZLE USE)_SR-01D_- 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 1996_碳鋼_999_STEAM RING, PIP 3.5 M ( FOR 14"" -2500# NOZZLE USE)_SR-01D_A 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 1997_碳鋼_999_STEAM RING, PIP 3.5 M ( FOR 14"" -2500# NOZZLE USE)_SR-01D_B 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 1998_碳鋼_999_STEAM RING, PIP 3.5 M ( FOR 14"" -2500# NOZZLE USE)_SR-01D_D 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 1999_碳鋼_999_STEAM RING, PIP 3.5 M ( FOR 14"" -2500# NOZZLE USE)_SR-01D_E 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 2000_碳鋼_999_STEAM RING, PIP 3.7 M ( FOR 16"" -2500# NOZZLE USE)_SR-01C_- 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 2001_碳鋼_999_STEAM RING, PIP 3.7 M ( FOR 16"" -2500# NOZZLE USE)_SR-01C_A 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 2002_碳鋼_999_STEAM RING, PIP 3.7 M ( FOR 16"" -2500# NOZZLE USE)_SR-01C_B 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 2003_碳鋼_999_STEAM RING, PIP 3.7 M ( FOR 16"" -2500# NOZZLE USE)_SR-01C_D 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 2004_碳鋼_999_STEAM RING, PIP 3.7 M ( FOR 16"" -2500# NOZZLE USE)_SR-01C_E 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 2005_碳鋼_999_STEAM RING, PIP 4.1 M ( FOR 20"" -2500# NOZZLE USE)_SR-01B_- 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 2006_碳鋼_999_STEAM RING, PIP 4.1 M ( FOR 20"" -2500# NOZZLE USE)_SR-01B_A 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 2007_碳鋼_999_STEAM RING, PIP 4.1 M ( FOR 20"" -2500# NOZZLE USE)_SR-01B_B 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 2008_碳鋼_999_STEAM RING, PIP 4.1 M ( FOR 20"" -2500# NOZZLE USE)_SR-01B_D 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 2009_碳鋼_999_STEAM RING, PIP 4.1 M ( FOR 20"" -2500# NOZZLE USE)_SR-01B_E 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 2010_碳鋼_999_STEAM RING, PIP 5.9 M ( FOR REACTOR TOP NOZZLE USE)_SR-01A_- 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 2011_碳鋼_999_STEAM RING, PIP 5.9 M ( FOR REACTOR TOP NOZZLE USE)_SR-01A_A 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 2012_碳鋼_999_STEAM RING, PIP 5.9 M ( FOR REACTOR TOP NOZZLE USE)_SR-01A_B 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 2013_碳鋼_999_STEAM RING, PIP 5.9 M ( FOR REACTOR TOP NOZZLE USE)_SR-01A_D 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+"在索引 2014_碳鋼_999_STEAM RING, PIP 5.9 M ( FOR REACTOR TOP NOZZLE USE)_SR-01A_E 發現資料變動："
+在欄位 '用料時機' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '安裝'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '安裝??'。
+""
+在索引 2149_鍍鋅鋼_362_CONC. SWAGE NIPPLE  TBE CS A234-WPB GA  MSS   _S02888_E 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-38'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 21_碳鋼_102_PIPE SMLS BE CS A106-B  ASME   _P24571_A 發現資料變動：
+在欄位 '採購需求' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '72'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '66'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '72'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '66'。
+""
+在索引 232_碳鋼_301_45 ELBOW SMLS BW CS A234-WPB  ASME   _N03237_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-3'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 23_碳鋼_102_PIPE SMLS BE CS A106-B  ASME   _P24571_D 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-6'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '150'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '156'。
+""
+在索引 2450_不銹鋼304L_331_SOCKOLET CL3000 SW SS A182-F304L  MSS  NACE_S185784_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-1'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 2470_不銹鋼304L_332_WELDOLET  BW SS A182-F304L  MSS  NACE_R595037_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-3'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 257_碳鋼_301_45 ELBOW SMLS BW CS A234-WPB  ASME  NACE_N147272_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-2'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 291_碳鋼_303_90 ELBOW CL3000 SW CS A105  ASME   _N00372_A 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '184'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '5'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '389'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '210'。
+""
+在索引 292_碳鋼_303_90 ELBOW CL3000 SW CS A105  ASME   _N00372_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-88'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '88'。
+""
+在索引 293_碳鋼_303_90 ELBOW CL3000 SW CS A105  ASME   _N00372_D 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-91'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '91'。
+""
+在索引 296_碳鋼_303_90 ELBOW CL3000 SW CS A105  ASME   _N00371_A 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '55'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '10'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '85'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '40'。
+""
+在索引 297_碳鋼_303_90 ELBOW CL3000 SW CS A105  ASME   _N00371_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-16'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '16'。
+""
+在索引 298_碳鋼_303_90 ELBOW CL3000 SW CS A105  ASME   _N00371_D 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-29'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '29'。
+""
+在索引 3085_不銹鋼321_331_SOCKOLET CL3000 SW SS A182-F321  MSS  NACE_S281338_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-2'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 3090_不銹鋼321_331_SOCKOLET CL3000 SW SS A182-F321  MSS  NACE_S281339_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-2'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 3095_不銹鋼321_332_WELDOLET  BW SS A182-F321  MSS  NACE_R981546_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-2'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 3100_不銹鋼321_332_WELDOLET  BW SS A182-F321  MSS  NACE_R981790_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-1'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 3105_不銹鋼321_332_WELDOLET  BW SS A182-F321  MSS  NACE_R981706_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-3'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 3110_不銹鋼321_332_WELDOLET  BW SS A182-F321  MSS  NACE_R981614_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-3'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 3115_不銹鋼321_332_WELDOLET  BW SS A182-F321  MSS  NACE_R980742_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-1'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 311_碳鋼_303_90 ELBOW CL3000 SW CS A105  ASME  NACE_N195582_A 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '2'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '2'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 3120_不銹鋼321_332_WELDOLET  BW SS A182-F321  MSS  NACE_R980988_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-1'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 3125_不銹鋼321_332_WELDOLET  BW SS A182-F321  MSS  NACE_R980903_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-3'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 312_碳鋼_303_90 ELBOW CL3000 SW CS A105  ASME  NACE_N195582_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-8'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '-6'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '2'。
+""
+在索引 3130_不銹鋼321_332_WELDOLET  BW SS A182-F321  MSS  NACE_R980812_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-2'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 3135_不銹鋼321_332_WELDOLET  BW SS A182-F321  MSS  NACE_R979322_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-3'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 3140_不銹鋼321_332_WELDOLET  BW SS A182-F321  MSS  NACE_R984242_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-1'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 3145_不銹鋼321_332_WELDOLET  BW SS A182-F321  MSS  NACE_R984061_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-2'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 3150_不銹鋼321_332_WELDOLET  BW SS A182-F321  MSS  NACE_R983658_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-2'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 3160_不銹鋼321_332_WELDOLET  BW SS A182-F321  MSS  NACE_R982728_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-8'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 3165_不銹鋼321_332_WELDOLET  BW SS A182-F321  MSS  NACE_R982780_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-8'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 3170_不銹鋼321_332_WELDOLET  BW SS A182-F321  MSS  NACE_R982317_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-1'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 3175_不銹鋼321_332_WELDOLET  BW SS A182-F321  MSS  NACE (minimum thickness per -7% tolerance)_R1552013_- 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-1'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 326_碳鋼_303_90 ELBOW CL6000 SW CS A105  ASME  NACE_N126021_A 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '7'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '5'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '7'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '5'。
+""
+在索引 327_碳鋼_303_90 ELBOW CL6000 SW CS A105  ASME  NACE_N126021_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-2'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '2'。
+""
+在索引 357_碳鋼_303_90 ELBOW SMLS BW CS A234-WPB  ASME  NACE_N35505_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-14'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '-1'。
+""
+在索引 3848_合金鋼P11_303_90 ELBOW SMLS BW AS A234-WP11-2  ASME   _N11101_D 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-2'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 407_碳鋼_303_90 ELBOW SMLS BW CS A234-WPB  ASME  NACE(IMPACT TEST at -1 DEG. C)_N75555_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-3'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 42_碳鋼_102_PIPE SMLS BE CS A106-B  ASME  NACE_P47531_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-78'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '-12'。
+""
+在索引 496_碳鋼_312_REDU. TEE CL3000 SW CS A105  ASME   _R01452_A 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '9'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '1'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '9'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '1'。
+""
+在索引 497_碳鋼_312_REDU. TEE CL3000 SW CS A105  ASME   _R01452_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-6'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '6'。
+""
+在索引 498_碳鋼_312_REDU. TEE CL3000 SW CS A105  ASME   _R01452_D 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-2'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '2'。
+""
+在索引 537_碳鋼_312_REDU. TEE SMLS BW CS A234-WPB  ASME  NACE_R855390_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-1'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 543_碳鋼_312_REDU. TEE SMLS BW CS A234-WPB  ASME  NACE_R441276_D 發現資料變動：
+在欄位 '8月15日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '3'。
+""
+在索引 547_碳鋼_312_REDU. TEE SMLS BW CS A234-WPB  ASME  NACE(IMPACT TEST at -1 DEG. C)_R752682_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-1'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 552_碳鋼_312_REDU. TEE SMLS BW CS A234-WPB  ASME  NACE(IMPACT TEST at -1 DEG. C)_R458994_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-1'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 573_碳鋼_331_SOCKOLET CL3000 SW CS A105  MSS   _S07381_D 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-6'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 653_碳鋼_332_WELDOLET  BW CS A105  MSS  NACE_R735698_D 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-1'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 668_碳鋼_332_WELDOLET  BW CS A105  MSS  NACE_R478135_D 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-2'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 676_碳鋼_351_FULL COUPLING CL3000 SW CS A105  ASME   _S00045_A 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '30'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '1'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '76'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '47'。
+""
+在索引 677_碳鋼_351_FULL COUPLING CL3000 SW CS A105  ASME   _S00045_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-18'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '18'。
+""
+在索引 678_碳鋼_351_FULL COUPLING CL3000 SW CS A105  ASME   _S00045_D 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-11'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '11'。
+""
+在索引 691_碳鋼_351_FULL COUPLING CL3000 SW CS A105  ASME  NACE_S298015_A 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '6'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '6'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 692_碳鋼_351_FULL COUPLING CL3000 SW CS A105  ASME  NACE_S298015_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-9'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '-3'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '6'。
+""
+在索引 72_碳鋼_102_PIPE SMLS BE CS A106-B  ASME  NACE_P211677_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-36'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 737_碳鋼_362_CONC. SWAGE NIPPLE  BLE/ PSE CS A234-WPB  MSS  NACE_S157016_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-2'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 786_碳鋼_362_ECC. SWAGE NIPPLE  PBE CS A234-WPB  MSS   _S03709_A 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-28'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 806_碳鋼_362_ECC. SWAGE NIPPLE  PBE CS A234-WPB  MSS   _S03711_A 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-4'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 858_碳鋼_363_ECC. REDUCER SMLS BW CS A234-WPB  ASME  NACE_R630900_D 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-1'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 867_碳鋼_363_ECC. REDUCER SMLS BW CS A234-WPB  ASME  NACE_R345330_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-2'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 872_碳鋼_363_ECC. REDUCER SMLS BW CS A234-WPB  ASME  NACE(IMPACT TEST at -1 DEG. C)_R692845_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-1'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+""
+在索引 891_碳鋼_372_CAP CL3000 FNPT CS A105  ASME   _N00088_A 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '25'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '1'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '38'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '14'。
+""
+在索引 892_碳鋼_372_CAP CL3000 FNPT CS A105  ASME   _N00088_B 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-3'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '3'。
+""
+在索引 893_碳鋼_372_CAP CL3000 FNPT CS A105  ASME   _N00088_D 發現資料變動：
+在欄位 '缺料狀況' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '-21'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '0'。
+在欄位 '7月2日' 發現變更：在舊檔案 'df_summary.csv' 中的值為 '0'，而在新檔案 '重組後的領料表_fill_missing_Value.csv' 中的值為 '21'。
+""
