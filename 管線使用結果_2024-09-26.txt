@@ -1,0 +1,180 @@
+[目前程序 : calculate_pipe_usage]
+#Step 1.
+      time : 2024-09-26 11:53:44
+         排序後的管線需求: [10223, 8652, 6789, 6522, 4155, 3378, 3320, 1254, 850]
+
+[目前程序 : calculate_pipe_usage]
+#Step 2.
+      time : 2024-09-26 11:53:44
+         開始新的管線，長度為: 6000
+
+[目前程序 : calculate_pipe_usage]
+#Step 3.
+      time : 2024-09-26 11:53:44
+         剩餘的管線需求: [10223, 8652, 6789, 6522, 4155, 3378, 3320, 1254, 850]
+
+[目前程序 : calculate_pipe_usage]
+#Step 4.
+      time : 2024-09-26 11:53:44
+         將 4155 mm 添加到當前管線中。剩餘長度: 1845 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 5.
+      time : 2024-09-26 11:53:44
+         將 1254 mm 添加到當前管線中。剩餘長度: 591 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 6.
+      time : 2024-09-26 11:53:44
+         當前管線完成: [4155, 1254]
+
+[目前程序 : calculate_pipe_usage]
+#Step 7.
+      time : 2024-09-26 11:53:44
+         處理長度 10223 mm，超過管線長度 6000 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 8.
+      time : 2024-09-26 11:53:44
+         使用完整的管線，長度為 6000 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 9.
+      time : 2024-09-26 11:53:44
+         剩餘的 4223 mm 被重新添加到需求中
+
+[目前程序 : calculate_pipe_usage]
+#Step 10.
+      time : 2024-09-26 11:53:44
+         處理長度 8652 mm，超過管線長度 6000 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 11.
+      time : 2024-09-26 11:53:44
+         使用完整的管線，長度為 6000 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 12.
+      time : 2024-09-26 11:53:44
+         剩餘的 2652 mm 被重新添加到需求中
+
+[目前程序 : calculate_pipe_usage]
+#Step 13.
+      time : 2024-09-26 11:53:44
+         處理長度 6789 mm，超過管線長度 6000 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 14.
+      time : 2024-09-26 11:53:44
+         使用完整的管線，長度為 6000 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 15.
+      time : 2024-09-26 11:53:44
+         剩餘的 789 mm 被重新添加到需求中
+
+[目前程序 : calculate_pipe_usage]
+#Step 16.
+      time : 2024-09-26 11:53:44
+         處理長度 6522 mm，超過管線長度 6000 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 17.
+      time : 2024-09-26 11:53:44
+         使用完整的管線，長度為 6000 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 18.
+      time : 2024-09-26 11:53:44
+         剩餘的 522 mm 被重新添加到需求中
+
+[目前程序 : calculate_pipe_usage]
+#Step 19.
+      time : 2024-09-26 11:53:44
+         開始新的管線，長度為: 6000
+
+[目前程序 : calculate_pipe_usage]
+#Step 20.
+      time : 2024-09-26 11:53:44
+         剩餘的管線需求: [3378, 3320, 850, 4223, 2652, 789, 522]
+
+[目前程序 : calculate_pipe_usage]
+#Step 21.
+      time : 2024-09-26 11:53:44
+         將 3378 mm 添加到當前管線中。剩餘長度: 2622 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 22.
+      time : 2024-09-26 11:53:44
+         將 850 mm 添加到當前管線中。剩餘長度: 1772 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 23.
+      time : 2024-09-26 11:53:44
+         將 789 mm 添加到當前管線中。剩餘長度: 983 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 24.
+      time : 2024-09-26 11:53:44
+         將 522 mm 添加到當前管線中。剩餘長度: 461 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 25.
+      time : 2024-09-26 11:53:44
+         當前管線完成: [3378, 850, 789, 522]
+
+[目前程序 : calculate_pipe_usage]
+#Step 26.
+      time : 2024-09-26 11:53:44
+         開始新的管線，長度為: 6000
+
+[目前程序 : calculate_pipe_usage]
+#Step 27.
+      time : 2024-09-26 11:53:44
+         剩餘的管線需求: [3320, 4223, 2652]
+
+[目前程序 : calculate_pipe_usage]
+#Step 28.
+      time : 2024-09-26 11:53:44
+         將 3320 mm 添加到當前管線中。剩餘長度: 2680 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 29.
+      time : 2024-09-26 11:53:44
+         將 2652 mm 添加到當前管線中。剩餘長度: 28 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 30.
+      time : 2024-09-26 11:53:44
+         當前管線完成: [3320, 2652]
+
+[目前程序 : calculate_pipe_usage]
+#Step 31.
+      time : 2024-09-26 11:53:44
+         開始新的管線，長度為: 6000
+
+[目前程序 : calculate_pipe_usage]
+#Step 32.
+      time : 2024-09-26 11:53:44
+         剩餘的管線需求: [4223]
+
+[目前程序 : calculate_pipe_usage]
+#Step 33.
+      time : 2024-09-26 11:53:44
+         將 4223 mm 添加到當前管線中。剩餘長度: 1777 mm
+
+[目前程序 : calculate_pipe_usage]
+#Step 34.
+      time : 2024-09-26 11:53:44
+         當前管線完成: [4223]
+
+
+最佳管線使用方式:
+管線 1: 4155 + 1254 = 5409 mm
+管線 2: 6000 = 6000 mm
+管線 3: 6000 = 6000 mm
+管線 4: 6000 = 6000 mm
+管線 5: 6000 = 6000 mm
+管線 6: 3378 + 850 + 789 + 522 = 5539 mm
+管線 7: 3320 + 2652 = 5972 mm
+管線 8: 4223 = 4223 mm

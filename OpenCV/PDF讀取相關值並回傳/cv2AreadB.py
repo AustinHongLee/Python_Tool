@@ -1,151 +1,118 @@
 import cv2
 import sys
 import numpy as np
-import pyautogui  # 用於螢幕截圖
-import time  # 用於時間控制
+import fitz  # PyMuPDF, used for PDF image extraction
+import screeninfo
+import pytesseract  # 用於圖像識別 (OCR)
 
-sys.path.append(r'G:\我的雲端硬碟\Python_Tool-main\OpenCV\PDF讀取相關值並回傳\20240919154257639_6.pdf')
+# 設定 Tesseract 的路徑 (依據你的 Tesseract 安裝位置)
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\a0976\Downloads\tesseract-main\tesseract-main'
+
+sys.path.append(r"G:\我的雲端硬碟\Python_Tool-main")
 from GoodTool import print_step_calculator
 
-# 讀取目標圖片（你想要尋找的圖片）
-print(print_step_calculator(), "開始讀取目標圖片")
-image = cv2.imread(r'G:\我的雲端硬碟\Python_Tool-main\OpenCV\PDF讀取相關值並回傳\Snipaste_2024-09-20_10-18-49.png')
+# 讀取目標圖片（B.jpg）
+print(print_step_calculator("讀取目標圖片"))
+target_image = cv2.imread(r'C:\Users\a0976\Desktop\Hey.png')
 
-if image is None:
-    print("Failed to load image")
+if target_image is None:
+    print("Failed to load target image")
     sys.exit()
-else:
-    print(print_step_calculator(), "目標圖片讀取成功")
 
-# 定義預處理函數列表
-def preprocess_image(image, method):
-    if method == 'gray':
-        print(print_step_calculator(), "將圖像轉換為灰階")
-        return cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    elif method == 'blur':
-        print(print_step_calculator(), "將圖像模糊處理")
-        return cv2.GaussianBlur(image, (5, 5), 0)
-    elif method == 'edges':
-        print(print_step_calculator(), "進行邊緣檢測")
-        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-        return cv2.Canny(gray, 100, 200)
-    elif method == 'equalize_hist':
-        print(print_step_calculator(), "進行直方圖均衡化")
-        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-        return cv2.equalizeHist(gray)
-    else:
-        return image
+
+# PDF 圖片提取函數
+def extract_images_from_pdf(pdf_path):
+    doc = fitz.open(pdf_path)
+    images = []
+    for page_num in range(len(doc)):
+        page = doc.load_page(page_num)
+        image_list = page.get_images(full=True)
+        for img in image_list:
+            xref = img[0]
+            base_image = doc.extract_image(xref)
+            image_bytes = base_image["image"]
+            image_np = np.frombuffer(image_bytes, np.uint8)
+            image = cv2.imdecode(image_np, cv2.IMREAD_COLOR)
+            images.append(image)
+    return images
+
+
+# 提取 PDF 中的所有圖片（A.pdf）
+print(print_step_calculator("提取 PDF 中的圖片"))
+pdf_images = extract_images_from_pdf(r'C:\Users\a0976\Desktop\4.XG32-3000A-BW-0656-01.pdf')
+
+if not pdf_images:
+    print("No images found in the PDF")
+    sys.exit()
+
+
+# 預處理圖片：轉換為灰度圖
+def preprocess_image(image):
+    return cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
 
 # 使用 SIFT 進行特徵匹配
-def sift_feature_matching(image, screen_image):
-    print(print_step_calculator(), "使用 SIFT 進行特徵匹配")
+def sift_feature_matching(target, source):
     sift = cv2.SIFT_create()
-
-    # 找到圖像的特徵點和描述符
-    kp1, des1 = sift.detectAndCompute(image, None)
-    kp2, des2 = sift.detectAndCompute(screen_image, None)
-
-    # 建立暴力匹配器
+    kp1, des1 = sift.detectAndCompute(target, None)
+    kp2, des2 = sift.detectAndCompute(source, None)
     bf = cv2.BFMatcher(cv2.NORM_L2, crossCheck=True)
-
-    # 匹配描述符
     matches = bf.match(des1, des2)
-
-    # 根據匹配距離排序
     matches = sorted(matches, key=lambda x: x.distance)
+    return kp1, kp2, matches
 
-    # 繪製匹配結果，使用 drawMatches 繪製匹配特徵點和線條
-    result_image = cv2.drawMatches(image, kp1, screen_image, kp2, matches[:10], None, flags=cv2.DrawMatchesFlags_NOT_DRAW_SINGLE_POINTS)
 
-    return result_image, kp1, kp2, matches
+# 在 PDF 圖片中找到與 B.jpg 相似的內容
+for idx, pdf_image in enumerate(pdf_images):
+    print(print_step_calculator(f"處理第 {idx + 1} 頁圖片"))
 
-# 循環執行影像處理，運行10秒
-def run_for_duration(duration, interval):
-    start_time = time.time()
-    
-    while time.time() - start_time < duration:
-        print(print_step_calculator(), "開始擷取螢幕截圖")
-        screenshot = pyautogui.screenshot()
+    # 預處理 PDF 和目標圖片
+    preprocessed_target = preprocess_image(target_image)
+    preprocessed_pdf_image = preprocess_image(pdf_image)
 
-        # 將 screenshot 轉換為 numpy 陣列（OpenCV 可識別的格式）
-        print(print_step_calculator(), "將螢幕截圖轉換為 numpy 陣列")
-        screen_image = np.array(screenshot)
+    # 嘗試 SIFT 特徵匹配
+    kp1, kp2, matches = sift_feature_matching(preprocessed_target, preprocessed_pdf_image)  # 使用返回的 kp1 和 kp2
+    if matches:
+        print(f"SIFT 特徵匹配成功，找到相似圖片在第 {idx + 1} 頁")
+        for match in matches[:10]:
+            img_idx = match.queryIdx
+            scr_idx = match.trainIdx
 
-        # 轉換顏色格式，從 RGB 轉換為 BGR（OpenCV 使用 BGR）
-        print(print_step_calculator(), "將螢幕截圖轉換為 BGR 格式")
-        screen_image = cv2.cvtColor(screen_image, cv2.COLOR_RGB2BGR)
+            # 使用 kp1 和 kp2
+            img_pt = tuple(map(int, kp1[img_idx].pt))
+            scr_pt = tuple(map(int, kp2[scr_idx].pt))
 
-        print(print_step_calculator(), "螢幕截圖擷取成功")
+            # 畫一個比匹配點稍大的矩形
+            rect_size = 20  # 定義矩形擴大的大小
+            start_point = (max(scr_pt[0] - rect_size, 0), max(scr_pt[1] - rect_size, 0))
+            end_point = (min(scr_pt[0] + rect_size, pdf_image.shape[1]), min(scr_pt[1] + rect_size, pdf_image.shape[0]))
 
-        preprocessing_methods = ['gray', 'blur', 'edges', 'equalize_hist']
-        found = False
+            # 繪製擴大的矩形
+            cv2.rectangle(pdf_image, start_point, end_point, (255, 0, 0), 2)
 
-        # 先嘗試使用預處理和 matchTemplate
-        for method in preprocessing_methods:
-            print(print_step_calculator(), f"嘗試預處理方法: {method}")
+            # 從矩形區域擷取圖像，用於 OCR 識別
+            cropped_image = pdf_image[start_point[1]:end_point[1], start_point[0]:end_point[0]]
 
-            # 預處理目標圖片和螢幕截圖
-            processed_image = preprocess_image(image, method)
-            processed_screen_image = preprocess_image(screen_image, method)
+            # 使用 Tesseract 進行 OCR 識別
+            text = pytesseract.image_to_string(cropped_image, config='--psm 6 digits')
+            print(f"識別到的數字: {text.strip()}")
 
-            # 使用 matchTemplate 來尋找目標圖片
-            print(print_step_calculator(), f"使用 matchTemplate 進行匹配 (方法: {method})")
-            result = cv2.matchTemplate(processed_screen_image, processed_image, cv2.TM_CCOEFF_NORMED)
+        break
 
-            # 設定匹配的閾值，值越接近1表示匹配越好
-            threshold = 0.8
-            loc = np.where(result >= threshold)
+# 取得螢幕的寬高
+screen = screeninfo.get_monitors()[0]
+screen_width, screen_height = screen.width, screen.height
 
-            # 如果找到匹配，畫出藍色框框
-            if len(loc[0]) > 0:
-                found = True
-                print(print_step_calculator(), f"匹配成功，使用預處理方法: {method}")
-                for pt in zip(*loc[::-1]):
-                    start_point = pt  # 左上角座標
-                    end_point = (pt[0] + image.shape[1], pt[1] + image.shape[0])  # 右下角座標
-                    color = (255, 0, 0)  # 藍色 (BGR)
-                    thickness = 2
-                    cv2.rectangle(screen_image, start_point, end_point, color, thickness)
-                break  # 找到後停止嘗試
+# 根據螢幕大小縮放圖片
+scale_factor = min(screen_width / pdf_image.shape[1], screen_height / pdf_image.shape[0])
+new_width = int(pdf_image.shape[1] * scale_factor / 0.85)
+new_height = int(pdf_image.shape[0] * scale_factor / 0.85)
 
-            print(print_step_calculator(), f"未能匹配成功 (方法: {method})")
+# 調整圖片大小並旋轉
+resized_image = cv2.resize(pdf_image, (new_width, new_height), interpolation=cv2.INTER_AREA)
+rotated_image = cv2.rotate(resized_image, cv2.ROTATE_90_COUNTERCLOCKWISE)
 
-        # 如果 matchTemplate 找不到結果，使用 SIFT 進行特徵匹配
-        if not found:
-            print(print_step_calculator(), "未能找到匹配，嘗試使用 SIFT 進行特徵匹配")
-            result_image, kp1, kp2, matches = sift_feature_matching(image, screen_image)
-
-            # 繪製所有找到的關鍵點（在原圖和螢幕圖像上）
-            matched_pts = []
-            for match in matches[:10]:  # 繪製前10個匹配點
-                img_idx = match.queryIdx
-                scr_idx = match.trainIdx
-
-                # 獲取在圖像和螢幕截圖上的座標
-                img_pt = tuple(map(int, kp1[img_idx].pt))
-                scr_pt = tuple(map(int, kp2[scr_idx].pt))
-                matched_pts.append(scr_pt)  # 保存螢幕圖上的匹配點
-
-                # 在螢幕截圖上畫出匹配的點 (圈圈)
-                cv2.circle(screen_image, scr_pt, 10, (0, 255, 0), 3)  # 綠色圈圈代表匹配點
-
-            # 如果有找到匹配點，畫出藍色框框
-            if matched_pts:
-                min_x = min([pt[0] for pt in matched_pts])
-                min_y = min([pt[1] for pt in matched_pts])
-                max_x = max([pt[0] for pt in matched_pts])
-                max_y = max([pt[1] for pt in matched_pts])
-
-                # 在螢幕上畫出藍色矩形框框
-                cv2.rectangle(screen_image, (min_x, min_y), (max_x, max_y), (255, 0, 0), 2)  # 藍色框框
-
-        # 顯示包含特徵點和匹配結果的螢幕圖片
-        cv2.imshow('Detected keypoints and bounding box', screen_image)
-        cv2.waitKey(1)  # 每次更新圖片
-
-        # 等待 X 秒後繼續
-        print(print_step_calculator(), f"等待 {interval} 秒後繼續")
-        time.sleep(interval)
-
-# 設置每 5 秒進行一次影像處理，並總共運行 10 秒
-run_for_duration(10, 2)
+# 顯示結果圖片
+cv2.imshow('Matching Result', rotated_image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
